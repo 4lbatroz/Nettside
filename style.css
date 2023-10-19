@@ -1,5 +1,9 @@
 #tittel{
+<<<<<<< Updated upstream
     color:black;
+=======
+    color: wheat;
+>>>>>>> Stashed changes
     display: flex;
     justify-content: left;
     font-size: 30px;
@@ -7,17 +11,29 @@
 } 
 
 #body{
+<<<<<<< Updated upstream
     background-color:whitesmoke;
+=======
+    background-color: black;
+>>>>>>> Stashed changes
 }
 
 /*css for meny*/
 .meny{
+<<<<<<< Updated upstream
     color: black;
+=======
+    color: wheat;
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: row;
     font-size: 25px;
     margin-left: 30px;
     justify-content: space-evenly;
+<<<<<<< Updated upstream
     
 
 }
+=======
+}
+>>>>>>> Stashed changes
