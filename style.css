@@ -1,36 +1,14 @@
-<<<<<<< Updated upstream
-#tittel{
-    color:black;
-    display: flex;
-    justify-content: left;
-    font-size: 30px;
-    margin: 15px;
-} 
-
-#body{
-    background-color:whitesmoke;
-}
-
-/*css for meny*/
-.meny{
-    color: black;
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    margin-left: 30px;
-    justify-content: space-evenly;
-=======
 html, body {
     margin: 0;
     padding: 0;
 }
 /*css for navigasjon*/
 .navigasjon{
-width: 100% - 24px;
-height: 50px;
-padding: 0 24px;
-background-color: red;
-margin: 10px;
+    width: 100% - 24px;
+    height: 50px;
+    padding: 0 24px;
+    background-color: red;
+    margin: 10px;
 }
 
 #logo{
@@ -41,9 +19,13 @@ margin: 10px;
 
 }
 
+.nav_flex{
+    display: flex;
+
+}
+
 #tilProdukter{
     background-color: palegreen;
->>>>>>> Stashed changes
     
 
 }
