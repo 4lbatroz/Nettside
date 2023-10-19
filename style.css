@@ -1,3 +1,6 @@
+/*
+    endre farge på texten til hvit
+*/
 #tittel{
     color: wheat;
     display: flex;
@@ -5,12 +8,16 @@
     font-size: 30px;
     margin: 15px;
 } 
-
+/*
+    endrer bakrunds fargen til sort
+*/
 #body{
     background-color: black;
 }
 
-/*css for meny*/
+/*
+    css for meny
+*/
 .meny{
     color: wheat;
     display: flex;
@@ -19,7 +26,9 @@
     margin-left: 30px;
     justify-content: space-evenly;
 }
-
+/* 
+   Stiler for bakrund fargen på sirkelen fjerner standard listebutllepunkter.
+*/
 ol {
     background-color: bisque;
     list-style-type: none;
@@ -30,10 +39,17 @@ ol {
     border-radius: 1rem;
 }
 
+/* 
+   Flyter menyen til venstre for å plassere dem ved siden av hverandre.
+*/
 .meny {
     float: left;
 }
 
+/* 
+   Stiler for lenker inni listen: 
+   Gir padding fjerner understrekning og setter texsten til svart og runder av.
+*/
 li a {
     padding: 15px;
     text-decoration: none;
@@ -41,6 +57,9 @@ li a {
     border-radius: 1rem;
 }
 
+/* 
+   Hovereffekt Endrer bakgrunnsfargen til aquamarine når musepekeren sveiper over lenken.
+*/
 li a:hover {
     background-color: aquamarine;
 }
