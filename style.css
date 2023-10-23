@@ -1,16 +1,28 @@
 #tittel{
-    color: wheat;
+    color: black;
     display: flex;
     justify-content: left;
     font-size: 30px;
     margin: 15px;
 } 
+<<<<<<< Updated upstream
 
 #body{
     background-color: black;
 }
 
 /*css for meny*/
+=======
+/*
+    endrer bakrunds fargen til sort
+*/
+body{
+    background-color:lightskyblue ;
+}
+/*
+    css for meny
+*/
+>>>>>>> Stashed changes
 .meny{
     color: wheat;
     display: flex;
@@ -19,3 +31,60 @@
     margin-left: 30px;
     justify-content: space-evenly;
 }
+<<<<<<< Updated upstream
+=======
+/* 
+   Stiler for bakrund fargen på sirkelen fjerner standard listebutllepunkter.
+*/
+ol {
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    overflow: hidden;
+    padding: 20px;
+    position: left;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+/* 
+   Flyter menyen til venstre for å plassere dem ved siden av hverandre.
+*/
+.meny {
+    float: left;
+}
+
+/* 
+   Stiler for lenker inni listen: 
+   Gir padding fjerner understrekning og setter texsten til svart og runder av.
+*/
+li a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 1rem;
+}
+
+/* 
+   Hovereffekt Endrer bakgrunnsfargen til aquamarine når musepekeren sveiper over lenken.
+*/
+li a:hover {
+    background-color: aquamarine;
+}
+
+/*div element til meny produkt side*/
+.nav_prod{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 20px;
+    position: left;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+#handlekruv{
+    align-items: flex flex-end;
+}
+
+>>>>>>> Stashed changes
