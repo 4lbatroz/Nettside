@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #tittel{
     color: black;
     display: flex;
@@ -30,6 +31,44 @@ body{
     font-size: 25px;
     margin-left: 30px;
     justify-content: space-evenly;
+=======
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*css for navigasjon*/
+.nav{
+    width: 100% - 24px;
+    height: 50px;
+    padding: 0 24px;
+    background-color: red;
+    margin: 10px;
+}
+
+#logo{
+    background-color: blue;
+
+
+    padding: 10px;
+
+}
+
+.nav_flex{
+    display: flex;
+
+}
+
+#tilProdukter{
+    background-color: palegreen;
+    
+
+}
+
+
+.nav_prod{
+    width: 100%;
+    height: 40px;
+>>>>>>> Stashed changes
 }
 <<<<<<< Updated upstream
 =======
