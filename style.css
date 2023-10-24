@@ -1,4 +1,6 @@
-<<<<<<< Updated upstream
+/*
+    endre farge på texten til hvit
+*/
 #tittel{
     color: black;
     display: flex;
@@ -6,14 +8,6 @@
     font-size: 30px;
     margin: 15px;
 } 
-<<<<<<< Updated upstream
-
-#body{
-    background-color: black;
-}
-
-/*css for meny*/
-=======
 /*
     endrer bakrunds fargen til sort
 */
@@ -23,7 +17,6 @@ body{
 /*
     css for meny
 */
->>>>>>> Stashed changes
 .meny{
     color: wheat;
     display: flex;
@@ -31,47 +24,7 @@ body{
     font-size: 25px;
     margin-left: 30px;
     justify-content: space-evenly;
-=======
-html, body {
-    margin: 0;
-    padding: 0;
 }
-/*css for navigasjon*/
-.nav{
-    width: 100% - 24px;
-    height: 50px;
-    padding: 0 24px;
-    background-color: red;
-    margin: 10px;
-}
-
-#logo{
-    background-color: blue;
-
-
-    padding: 10px;
-
-}
-
-.nav_flex{
-    display: flex;
-
-}
-
-#tilProdukter{
-    background-color: palegreen;
-    
-
-}
-
-
-.nav_prod{
-    width: 100%;
-    height: 40px;
->>>>>>> Stashed changes
-}
-<<<<<<< Updated upstream
-=======
 /* 
    Stiler for bakrund fargen på sirkelen fjerner standard listebutllepunkter.
 */
@@ -113,7 +66,6 @@ li a:hover {
 /*div element til meny produkt side*/
 .nav_prod{
     background-color: rgb(255, 255, 255);
-    display: flex;
     list-style-type: none;
     overflow: hidden;
     padding: 20px;
@@ -122,8 +74,24 @@ li a:hover {
     border-radius: 1rem;
 }
 
-#handlekruv{
-    align-items: flex flex-end;
+.nav_flex{
+    display: flex;
+    flex-direction: row;
 }
 
->>>>>>> Stashed changes
+#tittel{
+    justify-content: flex-start;
+    padding: 20px;
+}
+#prod{
+    font-size: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+#vogn{
+    justify-content: flex-end;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+}
+
