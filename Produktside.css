@@ -8,6 +8,7 @@
 #tittel{
     justify-content: flex-start;
     padding: 20px;
+    font-size: 40px;
 }
 #prod{
     font-size: 20px;
@@ -29,22 +30,20 @@
 }
 
 .image-container {
-    display: inline-block; /* Display the containers in a row */
-    text-align: center; /* Center-align the content */
-    margin: 10px; /* Add spacing between containers */
+    display: inline-block; /* viser elementen i row format*/
+    text-align: center; /* putter elementene i midten */
+    margin: 10px; /* legger til mellomrom mellom elementene */
+    /*fikser størelsen på div elementene så de er like store alle sammen*/
     height: auto;
     width: 70%;
-
 }
   
 .image-container img {
-    width: 80%; /* Set the width of the images */
-    height: auto; /* Maintain aspect ratio */
-
-
+    width: 80%; /* setter bredden på elementen */
+    height: auto; /* beholder aspect ratio */
 }
   
 .image-container p {
-    margin-top: 10px; /* Add space between image and text */
+    margin-top: 10px; /* legger til mellomrom mellom bilde og tekst */
 }
 
