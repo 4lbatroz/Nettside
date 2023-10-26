@@ -63,7 +63,7 @@ body{
     width: 70%;
     /* lager en avrundet kant på div elementet */
     border-radius: 10px;
-    transition: transform 0.8s, box-shadow 0.2s;
+    transition: transform 0.5s, box-shadow 0.2s;
 }
 /* gjør at den når musa hovrer over div elementet kommer den avrundete boksen opp*/
 .image-container:hover {
