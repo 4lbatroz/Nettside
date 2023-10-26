@@ -1,48 +1,67 @@
-#tittel{
-    color: wheat;
-    display: flex;
-    justify-content: left;
-    font-size: 30px;
-    margin: 15px;
-} 
-
-#body{
-    background-color: rgb(255, 255, 255);
+/*fjerner blå link tekst og bytter ut med svart på hele siden*/
+a {
+    text-decoration:none ;
+    color:black
+}
+/* endrer bakgrunnsefargen på siden*/
+body{
+    background-color: yellowgreen;
 }
 
-/*css for meny*/
-.meny{
-    color: wheat;
+/*navigasjons div  elemntet */
+.nav_flex{
+    background-color:white; /* endrer bakgrunsfarge*/
+    display: flex;
+    justify-content: space-between; /* sprer elementene gjevnilg*/
+    align-items: center;
+    border-radius: 10px ; /* gir boksen en avrundet look*/
+}
+
+.produkt {
+    display: flex;
+    justify-content: start;
+}
+
+/*Norwegian fragrances tekst*/
+#tittel{
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+}
+/*Produkt tekst i navigasjons bar*/
+#prod{
+    font-size: 27px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.handel{
     display: flex;
     flex-direction: row;
-    font-size: 25px;
-    margin-left: 30px;
-    justify-content: space-evenly;
 }
-
-ol {
-    background-color: bisque;
-    list-style-type: none;
-    overflow: hidden;
-    padding: 20px;
-    position: left;
+#login{
     margin: 10px;
-    border-radius: 1rem;
+}
+#user{
+    width: 40px;
+    height: auto;
+    padding-top: 10px;
+}
+/* Handlevogn */
+#vogn{
+    justify-content: flex-end;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    margin-right: 20px;
 }
 
-.meny {
-    float: left;
-}
-
-li a {
-    padding: 15px;
-    text-decoration: none;
-    color: black;
-    border-radius: 1rem;
-}
-
-li a:hover {
-    background-color: aquamarine;
+/* hele div elementet til produktene*/
+.inne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
 .bildePDMG {

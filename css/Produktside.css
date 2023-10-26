@@ -33,7 +33,19 @@ body{
     font-size: 27px;
     justify-content: center;
     padding: 20px;
-    margin-right: 200px;
+}
+
+.handel{
+    display: flex;
+    flex-direction: row;
+}
+#login{
+    margin: 10px;
+}
+#user{
+    width: 40px;
+    height: auto;
+    padding-top: 10px;
 }
 /* Handlevogn */
 #vogn{
@@ -52,9 +64,9 @@ body{
     margin-top: 20px;
 }
 
-/* */
+/* css for div elementet som holder bildene og tekst*/
 .image-container {
-    display: inline-block; /* viser elementen i row format*/
+    display: inline-block; /* viser elementen i rad format*/
     text-align: center; /* putter elementene i midten */
     margin: 10px; /* legger til mellomrom mellom elementene */
 
@@ -90,3 +102,4 @@ body{
     margin-left: 45px;
     margin-right: 45px;
 }
+
