@@ -5,12 +5,12 @@ a {
 }
 /* endrer bakgrunnsefargen på siden*/
 body{
-    background-color: yellowgreen;
+    background-color: darkolivegreen;
 }
 
 /*navigasjons div  elemntet */
 .nav_flex{
-    background-color:white; /* endrer bakgrunsfarge*/
+    background-color:darkkhaki; /* endrer bakgrunsfarge*/
     display: flex;
     justify-content: space-between; /* sprer elementene gjevnilg*/
     align-items: center;
@@ -75,7 +75,7 @@ body{
     width: 70%;
     /* lager en avrundet kant på div elementet */
     border-radius: 10px;
-    transition: transform 0.5s, box-shadow 0.2s;
+    transition: transform 0.5s, box-shadow 0.2s;/*gjør at boksen blir større nå man hovrer*/
 }
 /* gjør at den når musa hovrer over div elementet kommer den avrundete boksen opp*/
 .image-container:hover {
@@ -97,9 +97,30 @@ body{
 }
 
 .tekst{
-    background-color: white;
+    background-color: darkkhaki;
     border-radius: 10px;
     margin-left: 45px;
     margin-right: 45px;
 }
 
+.tt{
+    padding-top: 10px;
+}
+
+
+/* Under er sidene for produktene, jeg har har brukt class så jeg bare 
+kan sette inn og infoen jeg trenger for hver side. */
+
+.prod-div{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border: 10px;
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+}
+.prod-bilde{
+    width: 50px;
+    height: auto;
+}
