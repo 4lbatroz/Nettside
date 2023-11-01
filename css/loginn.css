@@ -1,0 +1,72 @@
+.login-box {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/*navigasjons div  elemntet */
+.nav_flex{
+    background-color:white; /* endrer bakgrunsfarge*/
+    display: flex;
+    justify-content: space-between; /* sprer elementene gjevnilg*/
+    align-items: center;
+    border-radius: 10px ; /* gir boksen en avrundet look*/
+}
+
+.produkt {
+    display: flex;
+    justify-content: start;
+}
+
+/*Norwegian fragrances tekst*/
+#tittel{
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+}
+/*Produkt tekst i navigasjons bar*/
+#prod{
+    font-size: 27px;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 200px;
+}
+/* Handlevogn */
+#vogn{
+    justify-content: flex-end;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* hele div elementet til produktene*/
+.inne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
