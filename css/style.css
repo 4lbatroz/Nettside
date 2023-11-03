@@ -5,12 +5,12 @@ a {
 }
 /* endrer bakgrunnsefargen på siden*/
 body{
-    background-color: yellowgreen;
+    background-color: darkolivegreen;
 }
 
 /*navigasjons div  elemntet */
 .nav_flex{
-    background-color:white; /* endrer bakgrunsfarge*/
+    background-color:darkkhaki; /* endrer bakgrunsfarge*/
     display: flex;
     justify-content: space-between; /* sprer elementene gjevnilg*/
     align-items: center;
