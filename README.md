@@ -76,4 +76,6 @@ spørsmål:
 3. ja
 4. Det var fine bokser
 5.helt nydelige
-6.nei d
+6.nei
+
+Jeg fikk ikke satt opp en server med phpMyadmin så vi fikk ikke laget noe database.
