@@ -1,4 +1,4 @@
-/* Setter lenketeksten til svart og fjerner understreking på hele siden */
+/* Fjerner blå linktekst og bytter til svart for hele siden */
 a {
     text-decoration: none; /* Fjerner understrek på lenker */
     color: black; /* Endrer lenkefargen til svart */
@@ -11,7 +11,7 @@ body {
 
 /* Navigasjonsdiv-elementet */
 .nav_flex {
-    background-color: darkkhaki; /* Endrer bakgrunnsfarge til mørk khaki */
+    background-color: darkkhaki; /* Endrer bakgrunnsfargen til mørk khaki */
     display: flex; /* Bruker flexbox for layout */
     justify-content: space-between; /* Sprer elementene jevnt langs aksen */
     align-items: center; /* Sentrerer elementene vertikalt */
@@ -37,6 +37,7 @@ body {
     padding: 20px;
 }
 
+/* 'Handel' - innlogging og brukerbilde */
 .handel {
     display: flex;
     flex-direction: row;
@@ -50,7 +51,7 @@ body {
     padding-top: 10px;
 }
 
-/* Handlevogn */
+/* Handlekurv */
 #vogn {
     justify-content: flex-end;
     height: 40px;
@@ -99,6 +100,7 @@ body {
     justify-content: center; /* Sentrerer teksten horisontalt */
 }
 
+/* Tekstdiv-elementet */
 .tekst {
     background-color: darkkhaki; /* Setter bakgrunnsfargen til mørk khaki */
     border-radius: 10px; /* Gir avrundede hjørner */
@@ -110,7 +112,7 @@ body {
     padding-top: 10px;
 }
 
-/* Under er sidene for produktene, jeg har brukt class så jeg bare kan sette inn og infoen jeg trenger for hver side. */
+/* Produkt-sidene */
 .prod-div {
     display: flex;
     flex-direction: row;

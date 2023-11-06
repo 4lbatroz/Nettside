@@ -1,39 +1,21 @@
-.login-box {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f2f2f2;
+/* Fjerner blå linktekst og bytter til svart for hele siden */
+a {
+    text-decoration: none; /* Fjerner understrek på lenker */
+    color: black; /* Endrer lenkefargen til svart */
 }
 
-.login-box label {
-    display: block;
-    margin-bottom: 10px;
+/* Endrer bakgrunnsfargen på siden */
+body {
+    background-color: darkolivegreen; /* Setter bakgrunnsfargen til mørk olivengrønn */
 }
 
-.login-box input[type="text"],
-.login-box input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-}
-
-.login-box button {
-    background-color: #0074d9;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-}
-
-/*navigasjons div  elemntet */
-.nav_flex{
-    background-color:white; /* endrer bakgrunsfarge*/
-    display: flex;
-    justify-content: space-between; /* sprer elementene gjevnilg*/
-    align-items: center;
-    border-radius: 10px ; /* gir boksen en avrundet look*/
+/* Navigasjonsdiv-elementet */
+.nav_flex {
+    background-color: darkkhaki; /* Endrer bakgrunnsfarge til mørk khaki */
+    display: flex; /* Bruker flexbox for layout */
+    justify-content: space-between; /* Sprer elementene jevnt langs aksen */
+    align-items: center; /* Sentrerer elementene vertikalt */
+    border-radius: 10px; /* Gir boksen avrundede hjørner */
 }
 
 .produkt {
@@ -41,21 +23,35 @@
     justify-content: start;
 }
 
-/*Norwegian fragrances tekst*/
-#tittel{
+/* 'Norwegian Fragrances' tekst */
+#tittel {
     display: flex;
     padding: 20px;
     font-size: 40px;
 }
-/*Produkt tekst i navigasjons bar*/
-#prod{
+
+/* 'Produkt' tekst i navigasjonslinjen */
+#prod {
     font-size: 27px;
     justify-content: center;
     padding: 20px;
-    margin-right: 200px;
 }
+
+.handel {
+    display: flex;
+    flex-direction: row;
+}
+#login {
+    margin: 10px;
+}
+#user {
+    width: 40px;
+    height: auto;
+    padding-top: 10px;
+}
+
 /* Handlevogn */
-#vogn{
+#vogn {
     justify-content: flex-end;
     height: 40px;
     width: 40px;
@@ -63,10 +59,51 @@
     margin-right: 20px;
 }
 
-/* hele div elementet til produktene*/
-.inne{
+/* Hele div-elementet for produktene */
+.inne {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
+}
+
+/* Generelle stiler for innloggingssiden */
+.logginnbox {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Bakgrunnsfarge - endre til ønsket farge */
+}
+
+.login-box {
+    border: 2px solid #000; /* Ramme rundt innholdet */
+    border-radius: 15px; /* Avrundede hjørner */
+    padding: 20px;
+    width: 200px;
+}
+
+.login-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form label,
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#dik {
+    display: flex;
+    padding-top: 125px;
+    justify-content: center;
 }
