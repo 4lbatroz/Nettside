@@ -6,6 +6,7 @@ a {
 /* endrer bakgrunnsefargen på siden*/
 body{
     background-color: darkolivegreen;
+    font-family: Arial, sans-serif; /* Endre til ønsket skrifttype */
 }
 
 /*navigasjons div  elemntet */

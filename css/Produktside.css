@@ -7,7 +7,9 @@ a {
 /* Endrer bakgrunnsfargen på siden */
 body {
     background-color: darkolivegreen; /* Setter bakgrunnsfargen til mørk olivengrønn */
+    font-family: Arial, sans-serif; /* Endre til ønsket skrifttype */
 }
+
 
 /* Navigasjonsdiv-elementet */
 .nav_flex {
